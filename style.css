@@ -8,19 +8,20 @@ html {
 }
 body {
     margin: 0px;
-}
-
-/* Margins around content */
-.body-container {
-    padding-left: 10%;
-    padding-right: 10%;
     box-sizing: border-box;
+    background-color: #1F2937;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* Header bar with logo and links */
+.hero-full {
+    padding-left: 15%;
+    padding-right: 15%;
+    color: #E5E7EB;
+}
 .header {
     align-items: center;
-    margin-top: 1em;
+    padding-top: 1em;
 }
 .header ul {
     list-style-type: none;
@@ -32,6 +33,7 @@ body {
 .header .link-container {
     display: flex;
     gap: 1em;
+    font-size: 18px;
 }
 .header li {
     display: inline-block;
@@ -41,6 +43,23 @@ body {
     text-decoration: none;
 }
 .header .logo a {
-    font-weight: bold;
+    font-weight: 800;
+    font-size: 24px;
+    color: #F9FAF8;
 }
+
+/* Hero section */
+div.hero-main {
+    display: flex;
+}
+.hero-main .text-container {
+
+}
+.hero-main .text-container h1 {
+    font-size: 48px;
+}
+.hero-main .img-container {
+
+}
+
 
