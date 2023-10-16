@@ -80,19 +80,18 @@ button { /* Reset default button style */
     border: none;
     background: none;
     cursor: pointer;
-}
-.hero-panel .text-container button { /* 'Sign up' button */
+    /* Sign up button */
     background-color: #3882F6;
-    color: #fff;
+    color: #F9FAF8;
     font-size: 17px;
     font-weight: bold;
     padding: 9px 32px;
     border-radius: 8px;
 }
-.hero-panel .text-container button:hover {
+button:hover {
     background-color: #3882F6c7;
 }
-.hero-panel .text-container button:active {
+button:active {
     background-color: #7896c4;
 }
 .hero-panel .img-container { /* Hero Banner placeholder */
@@ -102,6 +101,7 @@ button { /* Reset default button style */
     justify-content: center;
     align-items: center;
     height: 230px;
+    margin-left: 1em;
 }
 
 /* Information section with illustrations */
@@ -151,7 +151,7 @@ button { /* Reset default button style */
     padding-left: 14.3%;
     padding-right: 14.3%;
     background-color: #e5e7eb;
-    height: 440px;  
+    height: 430px;  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -171,4 +171,49 @@ button { /* Reset default button style */
     font-size: 24px;
     weight: bold;
     text-align: right;
+}
+
+/* Sign up section */
+.under-quote-white {
+    padding-left: 14.3%;
+    padding-right: 14.3%;
+    background-color: white;
+    height: 340px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-up-banner {
+    background-color: #3882F6;
+    padding: 50px 120px;
+    border-radius: 8px;
+    flex: 1;
+    display: flex;
+}
+.sign-up-banner .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+.sign-up-banner .container div h2 {
+    color: #F9FAF8;
+    padding-left: 2px;
+}
+.sign-up-banner .container div h3 {
+    color: #E5E7EBf5;
+    font-weight: 400;
+    font-size: 18px;
+}
+.sign-up-button-banner {
+    font-size: 18px;
+    color: white;
+    border: 2px solid white;
+    padding: 8px 32px;
+}
+.sign-up-button-banner:hover {
+    background-color: #386ec4;
+}
+.sign-up-button-banner:active {
+    background-color: #5a98fc;
 }
