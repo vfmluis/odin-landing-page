@@ -15,6 +15,10 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+h1, h2, h3, h4, p {
+    margin: 0;
+}
+
 /* Header bar with logo and links */
 .hero-full {
     padding-left: 14.3%;
@@ -64,11 +68,9 @@ div.hero-panel {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 1000;
-    margin: 0;
 }
 .hero-panel .text-container p {
     font-size: 18px;
-    margin: 0;
     margin-bottom: 15px;
 }
 
@@ -106,7 +108,7 @@ button { /* Reset default button style */
 .info-panel {
     color: #1f2937; 
     background-color: #fff;
-    height: 400px;
+    height: 500px;
     padding-left: 14.3%;
     padding-right: 14.3%;
 }
@@ -115,7 +117,6 @@ button { /* Reset default button style */
     font-size: 36px;
     font-weight: 1000;
     text-align: center;
-    margin: 0;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -145,3 +146,29 @@ button { /* Reset default button style */
     margin: 8px 0 0 0;
 }
 
+/* Quote section */
+.quote-panel {
+    padding-left: 14.3%;
+    padding-right: 14.3%;
+    background-color: #e5e7eb;
+    height: 440px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote-panel div {
+    padding-left: 2em;
+    flex-basis: 820px;
+}
+.quote-panel h2 {
+    color: #2b353b;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+.quote-panel h3 {
+    color: #1f262b;
+    font-size: 24px;
+    weight: bold;
+    text-align: right;
+}
