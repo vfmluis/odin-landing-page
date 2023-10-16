@@ -36,7 +36,7 @@ h1, h2, h3, h4, p {
     display: flex;
     justify-content: space-between;
 }
-.header .link-container {
+.header .link-container ul {
     display: flex;
     align-items: center;
     gap: 1em;
@@ -94,7 +94,7 @@ button:hover {
 button:active {
     background-color: #7896c4;
 }
-.hero-panel .img-container { /* Hero Banner placeholder */
+.hero-panel .img-container { /* Hero image placeholder */
     background-color: #6d747d;
     flex: 1;
     display: flex;
@@ -169,7 +169,7 @@ button:active {
 .quote-panel h3 {
     color: #1f262b;
     font-size: 24px;
-    weight: bold;
+    font-weight: bold;
     text-align: right;
 }
 
@@ -216,4 +216,16 @@ button:active {
 }
 .sign-up-button-banner:active {
     background-color: #5a98fc;
+}
+
+/* Copyright section */
+.copyright-panel {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright-panel p {
+    color: #F9FAF8;
+    font-size: 18px;
 }
